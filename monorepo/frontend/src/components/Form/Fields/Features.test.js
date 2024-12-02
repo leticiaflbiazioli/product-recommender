@@ -71,9 +71,6 @@ describe('Features Component', () => {
       />
     );
 
-    // const firstCheckbox = screen.getByLabelText(
-    //   `featuresList.${featuresMock[0].replace(/\s/g, '').toLowerCase()}`
-    // );
     const firstCheckbox = screen.getByDisplayValue('Feature One');
     fireEvent.click(firstCheckbox);
 
