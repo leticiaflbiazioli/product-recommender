@@ -1,6 +1,6 @@
-// Preferences.js
-
 import React, { useState } from 'react';
+import { useTranslation } from 'react-i18next';
+import { clearText } from '../../../utils/clearText';
 import Checkbox from '../../shared/Checkbox';
 
 function Preferences({
@@ -8,7 +8,9 @@ function Preferences({
   selectedPreferences = [],
   onPreferenceChange,
 }) {
-  const [currentPreferences, setCurrentPreferences] = useState(selectedPreferences)
+  const [currentPreferences, setCurrentPreferences] =
+    useState(selectedPreferences);
+  const { t } = useTranslation();
 
   const handlePreferenceChange = (preference) => {
     const updatedPreferences = currentPreferences.includes(preference)
@@ -21,7 +23,7 @@ function Preferences({
 
   return (
     <div className="mb-4">
-      <h2 className="text-lg font-bold mb-2">Preferências:</h2>
+      <h2 className="text-lg font-bold mb-2">{t('preferences')}:</h2>
       <ul>
         {preferences.map((preference, index) => (
           <li key={index} className="mb-2">
@@ -31,7 +33,7 @@ function Preferences({
               onChange={() => handlePreferenceChange(preference)}
               className="text-blue-500"
             >
-              {preference}
+              {t(`preferencesList.${clearText(preference)}`)}
             </Checkbox>
           </li>
         ))}

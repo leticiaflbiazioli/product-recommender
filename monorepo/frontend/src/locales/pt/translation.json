@@ -1,0 +1,47 @@
+{
+  "title": "Recomendador de Produtos RD Station",
+  "welcome": "Bem-vindo ao Recomendador de Produtos RD Station.",
+  "disclaimer": "Aqui você pode encontrar uma variedade de produtos da RD Station, cada um projetado para atender às necessidades específicas do seu negócio. De CRM a Marketing, de Conversas a Inteligência Artificial, temos uma solução para ajudar você a alcançar seus objetivos.",
+  "usage": "Use o formulário abaixo para selecionar suas preferências e funcionalidades desejadas e receba recomendações personalizadas de produtos que melhor atendam às suas necessidades.",
+  "preferences": "Preferências",
+  "features": "Funcionalidades",
+  "recommendationType": "Tipo de Recomendação",
+  "button": "Obter recomendação",
+  "recommendationsList": "Lista de Recomendações",
+  "recommendationsListEmpty": "Nenhuma recomendação encontrada",
+  "plans": "Clique aqui e assine nossos planos!",
+  "phone": "TELEFONE",
+  "address": "ENDEREÇO",
+  "preferencesList": {
+    "analisepreditivadedados": "Análise preditiva de dados",
+    "automacaodemarketing": "Automação de marketing",
+    "historicounificadodeinteracoes": "Histórico unificado de interações",
+    "integracaocomassistentesvirtuais": "Integração com assistentes virtuais",
+    "integracaocomchatbots": "Integração com chatbots",
+    "integracaofacilcomferramentasdeemail": "Integração fácil com ferramentas de e-mail",
+    "personalizacaodefunisdevendas": "Personalização de funis de vendas",
+    "recomendacoespersonalizadasparausuarios": "Recomendações personalizadas para usuários",
+    "relatoriosavancadosdedesempenhodevendas": "Relatórios avançados de desempenho de vendas",
+    "respostasautomaticasepersonalizadas": "Respostas automáticas e personalizadas",
+    "segmentacaoavancadadeleads": "Segmentação avançada de leads",
+    "testesabparaotimizacaodecampanhas": "Testes A/B para otimização de campanhas"
+  },
+  "featuresList": {
+    "analisededadosparainsightsestrategicos": "Análise de dados para insights estratégicos",
+    "analisederetornosobreinvestimentoroidecampanhas": "Análise de retorno sobre investimento (ROI) de campanhas",
+    "automacaodefluxosdetrabalhodevendas": "Automação de fluxos de trabalho de vendas",
+    "chataovivoemensagensautomatizadas": "Chat ao vivo e mensagens automatizadas",
+    "criacaoegestaodecampanhasdeemail": "Criação e gestão de campanhas de e-mail",
+    "gestaodeconversasemdiferentescanais": "Gestão de conversas em diferentes canais",
+    "gestaodeleadseoportunidades": "Gestão de leads e oportunidades",
+    "integracaocomrdstationcrmemarketing": "Integração com RD Station CRM e Marketing",
+    "integracaodefuncionalidadespreditivasnosprodutosrdstation": "Integração de funcionalidades preditivas nos produtos RD Station",
+    "rastreamentodecomportamentodousuario": "Rastreamento de comportamento do usuário",
+    "rastreamentodeinteracoescomclientes": "Rastreamento de interações com clientes",
+    "recomendacaodeacoescombaseempadroes": "Recomendação de ações com base em padrões"
+  },
+  "recommendationTypeList": {
+    "single": "Produto Único",
+    "multiple": "Múltiplos Produtos"
+  }
+}

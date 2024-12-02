@@ -1,4 +1,5 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import useForm from '../../hooks/useForm';
 import useProducts from '../../hooks/useProducts';
 import useRecommendations from '../../hooks/useRecommendations';
@@ -12,6 +13,7 @@ function Form({ setRecommendations }) {
     selectedFeatures: [],
     selectedRecommendationType: 'MultipleProducts',
   });
+  const { t } = useTranslation();
 
   const { getRecommendations } = useRecommendations(products);
 
@@ -23,7 +25,7 @@ function Form({ setRecommendations }) {
 
   return (
     <form
-      className="max-w-md mx-autobg-white rounded-lg shadow-md"
+      className=" max-w-full mx-autobg-white rounded-lg shadow-md px-2 pb-2 mb-8"
       onSubmit={handleSubmit}
     >
       <Preferences
@@ -44,7 +46,7 @@ function Form({ setRecommendations }) {
           handleChange('selectedRecommendationType', selected)
         }
       />
-      <SubmitButton text="Obter recomendação" />
+      <SubmitButton text={t('button')} />
     </form>
   );
 }

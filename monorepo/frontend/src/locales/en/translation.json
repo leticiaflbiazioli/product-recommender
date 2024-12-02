@@ -1,0 +1,47 @@
+{
+  "title": "RD Station Product Recommender",
+  "welcome": "Welcome to the RD Station Product Recommender.",
+  "disclaimer": "Here you can find a variety of RD Station products, each designed to meet the specific needs of your business. From CRM to Marketing, from Conversations to Artificial Intelligence, we have a solution to help you achieve your goals.",
+  "usage": "Use the form below to select your preferences and desired features, and receive personalized product recommendations that best suit your needs.",
+  "preferences": "Preferences",
+  "features": "Features",
+  "recommendationType": "Recommendation Type",
+  "button": "Get Recommendation",
+  "recommendationsList": "Recommendations List",
+  "recommendationsListEmpty": "No recommendations found",
+  "plans": "Click here and subscribe to our plans!",
+  "phone": "PHONE",
+  "address": "ADDRESS",
+  "preferencesList": {
+    "analisepreditivadedados": "Predictive data analysis",
+    "automacaodemarketing": "Marketing automation",
+    "historicounificadodeinteracoes": "Unified interaction history",
+    "integracaocomassistentesvirtuais": "Integration with virtual assistants",
+    "integracaocomchatbots": "Integration with chatbots",
+    "integracaofacilcomferramentasdeemail": "Easy integration with email tools",
+    "personalizacaodefunisdevendas": "Sales funnel personalization",
+    "recomendacoespersonalizadasparausuarios": "Personalized recommendations for users",
+    "relatoriosavancadosdedesempenhodevendas": "Advanced sales performance reports",
+    "respostasautomaticasepersonalizadas": "Automated and personalized responses",
+    "segmentacaoavancadadeleads": "Advanced lead segmentation",
+    "testesabparaotimizacaodecampanhas": "A/B testing for campaign optimization"
+  },
+  "featuresList": {
+    "analisededadosparainsightsestrategicos": "Data analysis for strategic insights",
+    "analisederetornosobreinvestimentoroidecampanhas": "Return on investment (ROI) analysis for campaigns",
+    "automacaodefluxosdetrabalhodevendas": "Sales workflow automation",
+    "chataovivoemensagensautomatizadas": "Live chat and automated messages",
+    "criacaoegestaodecampanhasdeemail": "Email campaign creation and management",
+    "gestaodeconversasemdiferentescanais": "Conversation management across different channels",
+    "gestaodeleadseoportunidades": "Lead and opportunity management",
+    "integracaocomrdstationcrmemarketing": "Integration with RD Station CRM and Marketing",
+    "integracaodefuncionalidadespreditivasnosprodutosrdstation": "Integration of predictive functionalities into RD Station products",
+    "rastreamentodecomportamentodousuario": "User behavior tracking",
+    "rastreamentodeinteracoescomclientes": "Customer interaction tracking",
+    "recomendacaodeacoescombaseempadroes": "Action recommendations based on patterns"
+  },
+  "recommendationTypeList": {
+    "single": "Single Product",
+    "multiple": "Multiple Products"
+  }
+}
